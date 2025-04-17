@@ -1,0 +1,5 @@
+googletrans==4.0.0-rc1
+transformers
+sentence-transformers
+torch
+tqdm
