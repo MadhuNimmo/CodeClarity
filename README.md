@@ -16,7 +16,7 @@ LLMs have shown remarkable performance in code summarization tasks. However, the
 MuCoSF introduces:
 - Multilingual benchmarks across **6 programming languages**.
 - Evaluation in **6 natural languages**.
-- Comprehensive evaluation metrics (BERTScore, ROUGE, METEOR, BLEU, ChrF).
+- Comprehensive evaluation metrics (BERTScore, ROUGE, METEOR, BLEU, ChrF, COMET, SIDE).
 - Human-in-the-loop LLM-judge scoring mechanisms for qualitative assessment.
 
 ---
