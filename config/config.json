@@ -1,0 +1,5 @@
+{
+  "SIDE_CHECKPOINT": "/kaggle/input/side/pytorch/default/1/103080",
+  "JSON_FOLDER": "/kaggle/working/new_multilingual_code_summarization-eval/backtrans_model_analysis/backtrans_jsons/aya-expanse",
+  "OUTPUT_CSV": "/kaggle/working/evalScores.csv"
+}
