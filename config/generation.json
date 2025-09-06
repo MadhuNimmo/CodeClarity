@@ -1,0 +1,21 @@
+{
+  "default_model": "gemma",
+  "default_model_ids": {
+    "codegemma": "google/codegemma-7b-it",
+    "gemma": "google/gemma-2-9b-it",
+    "qwen": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "deepseek": "deepseek-ai/deepseek-coder-6.7b-instruct"
+  },
+  "split": "test",
+  "out_dir": "data/code_summaries/generated",
+  "samples_per_bucket": 3,
+  "target_natural_languages": [
+    "English",
+    "Chinese",
+    "French",
+    "Spanish",
+    "Portuguese",
+    "Arabic",
+    "Hindi"
+  ]
+}
