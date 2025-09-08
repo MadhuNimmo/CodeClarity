@@ -1,0 +1,111 @@
+{
+  "dimensions": [
+    "correctness",
+    "completeness",
+    "clarity",
+    "terminology",
+    "brevity",
+    "overall"
+  ],
+  "means_by_language": {
+    "chinese": {
+      "correctness": 4.357692307692307,
+      "completeness": 4.315384615384615,
+      "clarity": 4.357692307692307,
+      "terminology": 4.4,
+      "brevity": 4.138461538461539,
+      "overall": 4.3076923076923075
+    },
+    "french": {
+      "correctness": 4.230769230769231,
+      "completeness": 4.122171945701357,
+      "clarity": 4.244343891402715,
+      "terminology": 4.167420814479638,
+      "brevity": 4.113122171945701,
+      "overall": 4.131221719457014
+    },
+    "spanish": {
+      "correctness": 4.309236947791165,
+      "completeness": 4.21285140562249,
+      "clarity": 4.27710843373494,
+      "terminology": 4.341365461847389,
+      "brevity": 4.160642570281125,
+      "overall": 4.236947791164659
+    },
+    "portuguese": {
+      "correctness": 4.330508474576271,
+      "completeness": 4.296610169491525,
+      "clarity": 4.305084745762712,
+      "terminology": 4.432203389830509,
+      "brevity": 4.13135593220339,
+      "overall": 4.279661016949152
+    },
+    "arabic": {
+      "correctness": 3.315352697095436,
+      "completeness": 3.33195020746888,
+      "clarity": 3.107883817427386,
+      "terminology": 3.112033195020747,
+      "brevity": 3.141078838174274,
+      "overall": 3.1659751037344397
+    },
+    "hindi": {
+      "correctness": 3.6653225806451615,
+      "completeness": 3.556451612903226,
+      "clarity": 3.532258064516129,
+      "terminology": 3.5443548387096775,
+      "brevity": 3.3911290322580645,
+      "overall": 3.467741935483871
+    }
+  },
+  "counts_by_language": {
+    "chinese": {
+      "correctness": 260,
+      "completeness": 260,
+      "clarity": 260,
+      "terminology": 260,
+      "brevity": 260,
+      "overall": 260
+    },
+    "french": {
+      "correctness": 221,
+      "completeness": 221,
+      "clarity": 221,
+      "terminology": 221,
+      "brevity": 221,
+      "overall": 221
+    },
+    "spanish": {
+      "correctness": 249,
+      "completeness": 249,
+      "clarity": 249,
+      "terminology": 249,
+      "brevity": 249,
+      "overall": 249
+    },
+    "portuguese": {
+      "correctness": 236,
+      "completeness": 236,
+      "clarity": 236,
+      "terminology": 236,
+      "brevity": 236,
+      "overall": 236
+    },
+    "arabic": {
+      "correctness": 241,
+      "completeness": 241,
+      "clarity": 241,
+      "terminology": 241,
+      "brevity": 241,
+      "overall": 241
+    },
+    "hindi": {
+      "correctness": 248,
+      "completeness": 248,
+      "clarity": 248,
+      "terminology": 248,
+      "brevity": 248,
+      "overall": 248
+    }
+  },
+  "n_samples": 306
+}

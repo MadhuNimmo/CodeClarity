@@ -1,0 +1,111 @@
+{
+  "dimensions": [
+    "correctness",
+    "completeness",
+    "clarity",
+    "terminology",
+    "brevity",
+    "overall"
+  ],
+  "means_by_language": {
+    "chinese": {
+      "correctness": null,
+      "completeness": null,
+      "clarity": null,
+      "terminology": null,
+      "brevity": null,
+      "overall": null
+    },
+    "french": {
+      "correctness": null,
+      "completeness": null,
+      "clarity": null,
+      "terminology": null,
+      "brevity": null,
+      "overall": null
+    },
+    "spanish": {
+      "correctness": null,
+      "completeness": null,
+      "clarity": null,
+      "terminology": null,
+      "brevity": null,
+      "overall": null
+    },
+    "portuguese": {
+      "correctness": null,
+      "completeness": null,
+      "clarity": null,
+      "terminology": null,
+      "brevity": null,
+      "overall": null
+    },
+    "arabic": {
+      "correctness": null,
+      "completeness": null,
+      "clarity": null,
+      "terminology": null,
+      "brevity": null,
+      "overall": null
+    },
+    "hindi": {
+      "correctness": null,
+      "completeness": null,
+      "clarity": null,
+      "terminology": null,
+      "brevity": null,
+      "overall": null
+    }
+  },
+  "counts_by_language": {
+    "chinese": {
+      "correctness": 0,
+      "completeness": 0,
+      "clarity": 0,
+      "terminology": 0,
+      "brevity": 0,
+      "overall": 0
+    },
+    "french": {
+      "correctness": 0,
+      "completeness": 0,
+      "clarity": 0,
+      "terminology": 0,
+      "brevity": 0,
+      "overall": 0
+    },
+    "spanish": {
+      "correctness": 0,
+      "completeness": 0,
+      "clarity": 0,
+      "terminology": 0,
+      "brevity": 0,
+      "overall": 0
+    },
+    "portuguese": {
+      "correctness": 0,
+      "completeness": 0,
+      "clarity": 0,
+      "terminology": 0,
+      "brevity": 0,
+      "overall": 0
+    },
+    "arabic": {
+      "correctness": 0,
+      "completeness": 0,
+      "clarity": 0,
+      "terminology": 0,
+      "brevity": 0,
+      "overall": 0
+    },
+    "hindi": {
+      "correctness": 0,
+      "completeness": 0,
+      "clarity": 0,
+      "terminology": 0,
+      "brevity": 0,
+      "overall": 0
+    }
+  },
+  "n_samples": 306
+}
