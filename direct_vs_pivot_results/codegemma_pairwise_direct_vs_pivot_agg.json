@@ -1,0 +1,312 @@
+{
+  "dimensions": [
+    "correctness",
+    "completeness",
+    "clarity",
+    "terminology",
+    "brevity",
+    "overall"
+  ],
+  "aggregates": {
+    "chinese": {
+      "wins_A_direct": {
+        "correctness": 136,
+        "completeness": 155,
+        "clarity": 111,
+        "terminology": 139,
+        "brevity": 43,
+        "overall": 127
+      },
+      "wins_B_pivot": {
+        "correctness": 118,
+        "completeness": 118,
+        "clarity": 186,
+        "terminology": 115,
+        "brevity": 248,
+        "overall": 144
+      },
+      "ties": {
+        "correctness": 52,
+        "completeness": 33,
+        "clarity": 9,
+        "terminology": 52,
+        "brevity": 15,
+        "overall": 35
+      },
+      "mean_scores_A": {
+        "correctness": 4.401960784313726,
+        "completeness": 4.356209150326797,
+        "clarity": 4.062091503267974,
+        "terminology": 4.408496732026144,
+        "brevity": 3.545751633986928,
+        "overall": 4.218954248366013
+      },
+      "mean_scores_B": {
+        "correctness": 4.333333333333333,
+        "completeness": 4.251633986928105,
+        "clarity": 4.362745098039215,
+        "terminology": 4.339869281045751,
+        "brevity": 4.2973856209150325,
+        "overall": 4.287581699346405
+      },
+      "count_scores": {
+        "correctness": 306,
+        "completeness": 306,
+        "clarity": 306,
+        "terminology": 306,
+        "brevity": 306,
+        "overall": 306
+      }
+    },
+    "french": {
+      "wins_A_direct": {
+        "correctness": 96,
+        "completeness": 88,
+        "clarity": 93,
+        "terminology": 85,
+        "brevity": 129,
+        "overall": 80
+      },
+      "wins_B_pivot": {
+        "correctness": 171,
+        "completeness": 191,
+        "clarity": 201,
+        "terminology": 159,
+        "brevity": 167,
+        "overall": 179
+      },
+      "ties": {
+        "correctness": 39,
+        "completeness": 27,
+        "clarity": 12,
+        "terminology": 62,
+        "brevity": 10,
+        "overall": 47
+      },
+      "mean_scores_A": {
+        "correctness": 4.022875816993464,
+        "completeness": 3.892156862745098,
+        "clarity": 3.7450980392156863,
+        "terminology": 4.133986928104576,
+        "brevity": 3.5065359477124183,
+        "overall": 3.8823529411764706
+      },
+      "mean_scores_B": {
+        "correctness": 4.284313725490196,
+        "completeness": 4.339869281045751,
+        "clarity": 4.2026143790849675,
+        "terminology": 4.411764705882353,
+        "brevity": 3.65359477124183,
+        "overall": 4.228758169934641
+      },
+      "count_scores": {
+        "correctness": 306,
+        "completeness": 306,
+        "clarity": 306,
+        "terminology": 306,
+        "brevity": 306,
+        "overall": 306
+      }
+    },
+    "spanish": {
+      "wins_A_direct": {
+        "correctness": 115,
+        "completeness": 117,
+        "clarity": 106,
+        "terminology": 109,
+        "brevity": 105,
+        "overall": 108
+      },
+      "wins_B_pivot": {
+        "correctness": 152,
+        "completeness": 168,
+        "clarity": 193,
+        "terminology": 153,
+        "brevity": 186,
+        "overall": 168
+      },
+      "ties": {
+        "correctness": 39,
+        "completeness": 21,
+        "clarity": 7,
+        "terminology": 44,
+        "brevity": 15,
+        "overall": 30
+      },
+      "mean_scores_A": {
+        "correctness": 4.238562091503268,
+        "completeness": 4.094771241830065,
+        "clarity": 4.0130718954248366,
+        "terminology": 4.218954248366013,
+        "brevity": 3.630718954248366,
+        "overall": 4.11437908496732
+      },
+      "mean_scores_B": {
+        "correctness": 4.382352941176471,
+        "completeness": 4.375816993464053,
+        "clarity": 4.392156862745098,
+        "terminology": 4.415032679738562,
+        "brevity": 3.9248366013071894,
+        "overall": 4.336601307189542
+      },
+      "count_scores": {
+        "correctness": 306,
+        "completeness": 306,
+        "clarity": 306,
+        "terminology": 306,
+        "brevity": 306,
+        "overall": 306
+      }
+    },
+    "portuguese": {
+      "wins_A_direct": {
+        "correctness": 122,
+        "completeness": 136,
+        "clarity": 93,
+        "terminology": 120,
+        "brevity": 64,
+        "overall": 116
+      },
+      "wins_B_pivot": {
+        "correctness": 141,
+        "completeness": 148,
+        "clarity": 208,
+        "terminology": 139,
+        "brevity": 228,
+        "overall": 162
+      },
+      "ties": {
+        "correctness": 43,
+        "completeness": 22,
+        "clarity": 5,
+        "terminology": 47,
+        "brevity": 14,
+        "overall": 28
+      },
+      "mean_scores_A": {
+        "correctness": 4.30718954248366,
+        "completeness": 4.245098039215686,
+        "clarity": 3.947712418300654,
+        "terminology": 4.3431372549019605,
+        "brevity": 3.5326797385620914,
+        "overall": 4.166666666666667
+      },
+      "mean_scores_B": {
+        "correctness": 4.379084967320262,
+        "completeness": 4.326797385620915,
+        "clarity": 4.4640522875816995,
+        "terminology": 4.434640522875817,
+        "brevity": 4.183006535947713,
+        "overall": 4.330065359477124
+      },
+      "count_scores": {
+        "correctness": 306,
+        "completeness": 306,
+        "clarity": 306,
+        "terminology": 306,
+        "brevity": 306,
+        "overall": 306
+      }
+    },
+    "arabic": {
+      "wins_A_direct": {
+        "correctness": 19,
+        "completeness": 17,
+        "clarity": 14,
+        "terminology": 16,
+        "brevity": 55,
+        "overall": 15
+      },
+      "wins_B_pivot": {
+        "correctness": 285,
+        "completeness": 283,
+        "clarity": 292,
+        "terminology": 287,
+        "brevity": 237,
+        "overall": 287
+      },
+      "ties": {
+        "correctness": 2,
+        "completeness": 6,
+        "clarity": 0,
+        "terminology": 3,
+        "brevity": 14,
+        "overall": 4
+      },
+      "mean_scores_A": {
+        "correctness": 2.9215686274509802,
+        "completeness": 3.042483660130719,
+        "clarity": 2.454248366013072,
+        "terminology": 2.9934640522875817,
+        "brevity": 2.8333333333333335,
+        "overall": 2.820261437908497
+      },
+      "mean_scores_B": {
+        "correctness": 4.300653594771242,
+        "completeness": 4.42483660130719,
+        "clarity": 4.3202614379084965,
+        "terminology": 4.431372549019608,
+        "brevity": 3.8333333333333335,
+        "overall": 4.323529411764706
+      },
+      "count_scores": {
+        "correctness": 306,
+        "completeness": 306,
+        "clarity": 306,
+        "terminology": 306,
+        "brevity": 306,
+        "overall": 306
+      }
+    },
+    "hindi": {
+      "wins_A_direct": {
+        "correctness": 20,
+        "completeness": 23,
+        "clarity": 9,
+        "terminology": 20,
+        "brevity": 34,
+        "overall": 15
+      },
+      "wins_B_pivot": {
+        "correctness": 284,
+        "completeness": 272,
+        "clarity": 297,
+        "terminology": 284,
+        "brevity": 261,
+        "overall": 284
+      },
+      "ties": {
+        "correctness": 2,
+        "completeness": 11,
+        "clarity": 0,
+        "terminology": 2,
+        "brevity": 11,
+        "overall": 7
+      },
+      "mean_scores_A": {
+        "correctness": 3.0,
+        "completeness": 3.0915032679738563,
+        "clarity": 2.5,
+        "terminology": 3.1666666666666665,
+        "brevity": 2.5915032679738563,
+        "overall": 2.8758169934640523
+      },
+      "mean_scores_B": {
+        "correctness": 4.473856209150327,
+        "completeness": 4.522875816993464,
+        "clarity": 4.4640522875816995,
+        "terminology": 4.57516339869281,
+        "brevity": 4.026143790849673,
+        "overall": 4.470588235294118
+      },
+      "count_scores": {
+        "correctness": 306,
+        "completeness": 306,
+        "clarity": 306,
+        "terminology": 306,
+        "brevity": 306,
+        "overall": 306
+      }
+    }
+  }
+}
