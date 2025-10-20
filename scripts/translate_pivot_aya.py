@@ -195,7 +195,7 @@ def main():
         limit=args_ns.limit,
     )
     process_file(args)
-    print(f"✅ Wrote: {args.output}")
+    print(f" Wrote: {args.output}")
 
 
 if __name__ == "__main__":

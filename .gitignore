@@ -79,7 +79,6 @@ _rspec
 
 # Miscellaneous
 *.swp
-*.lock
 *.bak
 *.tmp
 *.temp
@@ -110,4 +109,4 @@ coverage/
 .envrc
 *~
 
-models/side/103080
+src/models/side/103080/

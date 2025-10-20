@@ -19,37 +19,14 @@ MuCoSF introduces:
 - Comprehensive evaluation metrics (BERTScore, ROUGE, METEOR, BLEU, ChrF, COMET, SIDE).
 - Human-in-the-loop LLM-judge scoring mechanisms for qualitative assessment.
 
----
 
-## Directory Structure
+## Benchmark Dataset
 
-``` bash
-CodeClarity/
-├── config/
-│ └── config.json # Configuration parameters (paths, model settings)
-│
-├── data/
-│ ├── backtranslated_summaries/ # Back-translated summaries for evaluation
-│ └── code_summaries/ # Ground truth code summaries
-│
-├── evaluation/
-│ ├── metrics/
-│ │ ├── comet_score.py # COMET metric computation
-│ │ ├── metrics.py # Core evaluation metrics (BERTScore, ROUGE, METEOR, etc.)
-│ │ └── side_score.py # SIDE metric computation
-│ └── evaluator.py # Main evaluation orchestrator script
-│
-├── models/
-│ ├── side/
-│ │ ├── 103080/ # SIDE model checkpoint directory
-│ │ └── side.md # Documentation for SIDE metric
-│ ├── side_loader.py # Loader for SIDE metric model
-│ └── comet_loader.py # Loader for COMET model
-│
-├── scripts/
-│ └── run_evaluation.py # Unified script to run full evaluation pipeline
-```
-
+| **Dimension**           | **Options**                                                                                |
+| ----------------------- | ------------------------------------------------------------------------------------------ |
+| Programming Languages   | Python, Java, JavaScript, PHP, Go, Ruby                                                    |
+| Natural Languages       | Spanish (ES), French (FR), Hindi (HI), Arabic (AR), Mandarin Chinese (ZH), Portuguese (PT) |
+| Function Length Buckets | Short (≤10 lines), Medium (11–30 lines), Long (>30 lines)                                  |
 
 ---
 
@@ -64,26 +41,9 @@ cd CodeClarity
 ```python
 pip install -r requirements.txt
 ```
-### 3. Configure Paths
-Edit the  `config/config.json` file to ensure correct paths.
+### 
 
-### 4. Run Evaluation Pipeline
-Execute the evaluation pipeline using:
-```python
-python scripts/run_evaluation.py --config config/config.json
 ```
-This will perform:
-
-Automated metric evaluations (BERTScore, ROUGE, METEOR, BLEU, ChrF)
-COMET and SIDE scoring
-
-## Benchmark Dataset
-
-| **Dimension**           | **Options**                                                                                |
-| ----------------------- | ------------------------------------------------------------------------------------------ |
-| Programming Languages   | Python, Java, JavaScript, PHP, Go, Ruby                                                    |
-| Natural Languages       | Spanish (ES), French (FR), Hindi (HI), Arabic (AR), Mandarin Chinese (ZH), Portuguese (PT) |
-| Function Length Buckets | Short (≤10 lines), Medium (11–30 lines), Long (>30 lines)                                  |
 
 ## Citation
 If you find this framework or our paper useful in your research, please consider citing our work:

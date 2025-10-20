@@ -1,0 +1,6 @@
+{
+  "SIDE_CHECKPOINT": "models/side/103080",
+  "JSON_FOLDER": "data/backtranslated_summaries",
+  "OUTPUT_CSV_FOLDER": "data/automated_metrics_eval_scores",
+  "EVAL_CSV": "evalScores.csv"
+}

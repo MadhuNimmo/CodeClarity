@@ -1,0 +1,27 @@
+[project]
+name = "codeclarity"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "sacrebleu (>=2.5.1,<3.0.0)",
+    "bert-score (>=0.3.13,<0.4.0)",
+    "sentence-transformers (>=5.1.1,<6.0.0)",
+    "transformers (>=4.57.1,<5.0.0)",
+    "rouge-score (>=0.1.2,<0.2.0)",
+    "nltk (>=3.9.2,<4.0.0)",
+    "evaluate (>=0.4.6,<0.5.0)",
+    "unbabel-comet @ git+https://github.com/Unbabel/COMET.git",
+    "cohere (>=5.19.0,<6.0.0)",
+    "google (>=3.0.0,<4.0.0)",
+    "litai (>=0.0.10,<0.0.11)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
