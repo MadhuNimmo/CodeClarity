@@ -118,7 +118,7 @@ For train or valid splits, replace `--split test` with `--split train` or `--spl
      "docstring": "docstring_here",
      "reference_summary": "reference_summary_here",
      "generated_summary": "model_generated_specific_lang_summary_here",
-      ... 
+      "..."
       }
    ```
  * Backtranslate reference summaries using the provided script and saved in the `data/backtranslated_summaries/` directory:
