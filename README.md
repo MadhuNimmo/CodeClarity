@@ -37,19 +37,119 @@ CodeClarity introduces:
 | Function Length Buckets | Short (≤10 lines), Medium (11–30 lines), Long (>30 lines)                                  |
 
 ---
+### Table of Contents
 
-## Setup Instructions
+  - [Project Structure](#project-structure)
+  - [Environment Setup](#environment-setup)
+  - [Data Generation](#data-generation)
+  - [Data Preparation](#data-preparation)
+  - [Running Evaluations](#running-evaluations)
+  - [Analysis and Visualization](#analysis-and-visualization)
+  - [Adding New Models or Metrics](#adding-new-models-or-metrics)
 
-### 1. Clone the Repository
+---
+
+## Project Structure
+- `notebooks/`  
+  Jupyter notebooks for analysis and visualization.
+- `data/`  
+  Contains all evaluation data and results.
+- `scripts/`  
+  Python scripts for running evaluations, preprocessing, or metric computation.
+- `src/`
+  Core modules for data handling, model interfacing, and metric calculations.
+
+## Environment Setup
+1. **Install dependencies**  
+   (Run in a clean environment for reproducibility.)
+    ```bash
+    poetry install
+   ```
+## Data Generation
+### Step1:
+To reproduce the dataset exactly, users need to know:
+* Programming Languages:\
+Python, Java, JavaScript, PHP, Go, Ruby
+
+* Natural Languages:\
+Spanish (ES), French (FR), Hindi (HI), Arabic (AR), Mandarin Chinese (ZH), Portuguese (PT)
+
+* Function Length Buckets:\
+Short (≤10 lines), Medium (11–30 lines), Long (>30 lines)
+
+* Number of samples per bucket:\
+e.g., 3
+
+* Split:\
+train, valid, or test
+### Step 2:
+For evaluation, you only need to set --save_dir or --output_csv if they you to override defaults.
 ```bash
-git clone https://github.com/MadhuNimmo/CodeClarity.git
-cd CodeClarity
+   python scripts/run_generation.py 
+    --config config/generation.json \
+    --model gemma \
+    --split test \
+    --out_dir data/code_summaries/generated \
+    --samples_per_bucket 3 \
+    --languages "Spanish" "French" "Hindi" "Arabic" "Mandarin Chinese" "Portuguese" \
+    --source codesearchnet
+ ```
+#### Notes:
+The script automatically uses the `programming_languages` and `function_length_buckets` defined in the config.
+If you want to adjust number of samples per bucket, change `--samples_per_bucket.`
+For train or valid splits, replace `--split test` with `--split train` or `--split valid.`
+
+### Step3:
+* Optional overrides
+- To use any custom configuration feel free to change the `--config` argument to point to your custom config file.
+- To use a different model or any other settings: 
+```bash
+--model codegemma
 ```
-### 2. Install Dependencies
-```python
-pip install -r requirements.txt
-```
-### 
+## Data Preparation
+
+ * Place your generated summaries in the `data/code_summaries/` directory following the naming convention: `<model_name>`.
+ * Each file should contain JSON lines with the following structure:
+   ```json
+   {
+     "id": "unique_sample_identifier",
+     "language": "programming_language_here",
+     "code": "function_code_here",
+     "docstring": "docstring_here",
+     "reference_summary": "reference_summary_here",
+     "generated_summary": "model_generated_specific_lang_summary_here",
+      ... 
+      }
+   ```
+ * Backtranslate reference summaries using the provided script and saved in the `data/backtranslated_summaries/` directory:
+   ```bash
+   python scripts/backtranslate_references.py
+   ```
+
+## Running Evaluations
+### 1. Automated Metrics Evaluation
+To evaluate model-generated summaries against reference summaries, run:
+```bash
+   scripts/run_evaluation.py \
+        --config config/my_custom_eval.json \
+        --save_dir results/test_run \
+        --output_csv results/test_run/final_eval.csv 
+ ```
+* Make sure your JSON folder in the config `(config/evaluation.json)` contains all the JSON summaries you want to evaluate.
+* Run the command above  it will load the SIDE and COMET models automatically.
+* After completion, the combined CSV will appear at the path you specified `(--output_csv)`.
+* If you only want to specify a folder and not the exact CSV, you can omit `--output_csv`:
+
+### 2. LLM-Judge Evaluation
+To perform LLM-judge evaluations, execute:
+
+
+
+## Analysis and Visualization
+
+
+## Adding New Models or Metrics
+
 
 
 ## Citation
