@@ -195,11 +195,6 @@ We provide several visualization tools and notebooks to analyze the benchmark re
 | :-----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
 | <img src="figures/bucket_summary.png" width="100%" alt="Reference Metrics by Bucket"> | <img src="figures/judge_bucket_summary.png" width="100%" alt="Judge Scores by Bucket"> |
 
-Check the `notebooks/` directory for detailed analysis scripts:
-
-- `notebooks/analysis_main.ipynb`: General performance analysis.
-- `notebooks/plotting.ipynb`: Generating the figures shown above.
-
 ## Adding New Models or Metrics
 
 ### Adding a New Model
