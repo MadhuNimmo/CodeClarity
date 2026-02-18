@@ -7,7 +7,7 @@
     <a href="https://www.python.org/downloads/release/python-380/">
       <img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="Python 3.8+">
     </a>
-    <a href="https://huggingface.co/datasets">
+    <a href="https://huggingface.co/datasets/CodeClarity/CodeClarity-Bench">
       <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-CodeClarity-yellow?style=flat" alt="Hugging Face">
     </a>
   </p>
